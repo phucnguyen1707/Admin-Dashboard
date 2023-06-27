@@ -10,6 +10,8 @@ import RegisPage from './pages/RegisPage';
 import Page404 from './pages/Page404';
 import ProductsPage from './pages/ProductsPage';
 import DashboardAppPage from './pages/DashboardAppPage';
+import Home from './pages/Home';
+
 
 // ----------------------------------------------------------------------
 
@@ -33,6 +35,10 @@ export default function Router() {
     {
       path: 'regis',
       element: <RegisPage />,
+    },
+    {
+      path: 'home',
+      element: <Home />,
     },
     {
       element: <SimpleLayout />,
